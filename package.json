@@ -7,7 +7,7 @@
   "author": "redasalmi <reda.salmi.elt@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node server",
+    "start": "NODE_ENV=production node server",
     "dev": "nodemon server"
   },
   "dependencies": {
