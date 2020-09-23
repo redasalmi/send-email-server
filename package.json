@@ -1,0 +1,26 @@
+{
+  "name": "send-email-server",
+  "version": "1.0.0",
+  "description": "a server to send emails to myself",
+  "main": "server.js",
+  "repository": "git@github.com:redasalmi/send-email-server.git",
+  "author": "redasalmi <reda.salmi.elt@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "helmet": "^4.1.1",
+    "morgan": "^1.10.0",
+    "xss-clean": "^0.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.9.0",
+    "nodemon": "^2.0.4"
+  }
+}
